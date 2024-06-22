@@ -6,7 +6,7 @@ import fitz
 
 wa_token=os.environ.get("WA_TOKEN")
 genai.configure(api_key=os.environ.get("GEN_API"))
-model_name="gemini-1.5-flash-latest"
+model_name="gemini-1.5-pro"
 
 app=Flask(__name__)
 
